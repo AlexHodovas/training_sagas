@@ -1,0 +1,1 @@
+{"version":3,"sources":["button.css"],"names":[],"mappings":"AAAA,KACE,WAAY,CACZ,cACF,CAEA,UACE,UACF,CAEA,WACE,SAAU,CACV,oBAAqB,CACrB,iBACF","file":"main.07b5549a.chunk.css","sourcesContent":[".btn {\n  width: 100px;\n  cursor: pointer;\n}\n\n.btn--run {\n  color: black;\n}\n\n.btn--stop {\n  color: red;\n  border: 1px solid red;\n  border-radius: 5px;\n}"]}

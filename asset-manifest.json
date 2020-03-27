@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/training_sagas/static/css/main.07b5549a.chunk.css",
+    "main.js": "/training_sagas/static/js/main.a9614f42.chunk.js",
+    "main.js.map": "/training_sagas/static/js/main.a9614f42.chunk.js.map",
+    "runtime-main.js": "/training_sagas/static/js/runtime-main.ccab705d.js",
+    "runtime-main.js.map": "/training_sagas/static/js/runtime-main.ccab705d.js.map",
+    "static/js/2.d26a1881.chunk.js": "/training_sagas/static/js/2.d26a1881.chunk.js",
+    "static/js/2.d26a1881.chunk.js.map": "/training_sagas/static/js/2.d26a1881.chunk.js.map",
+    "index.html": "/training_sagas/index.html",
+    "precache-manifest.304b4afb29750a9fd6e61a8de6f9aa12.js": "/training_sagas/precache-manifest.304b4afb29750a9fd6e61a8de6f9aa12.js",
+    "service-worker.js": "/training_sagas/service-worker.js",
+    "static/css/main.07b5549a.chunk.css.map": "/training_sagas/static/css/main.07b5549a.chunk.css.map",
+    "static/js/2.d26a1881.chunk.js.LICENSE.txt": "/training_sagas/static/js/2.d26a1881.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccab705d.js",
+    "static/js/2.d26a1881.chunk.js",
+    "static/css/main.07b5549a.chunk.css",
+    "static/js/main.a9614f42.chunk.js"
+  ]
+}
