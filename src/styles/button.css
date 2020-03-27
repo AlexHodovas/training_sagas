@@ -1,0 +1,14 @@
+.btn {
+  width: 100px;
+  cursor: pointer;
+}
+
+.btn--run {
+  color: black;
+}
+
+.btn--stop {
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+}
