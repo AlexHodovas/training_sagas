@@ -8,18 +8,29 @@ const delay = (ms) => new Promise(res => setTimeout(res, ms))
 
 function* sagaWorker() {
   yield call(delay, 1000);
-  const appState = ////;
-  //1
-  // JSON.parse(localStorage.getItem("stateApp"));
-  //2 
-  //yield call(localStorage.getItem, "stateApp")
-  //3
-  //localStorage.getItem("stateApp")
-  yield put({type: 'SET_APP_STATE', appState })
+
+
+
+  try {
+
+    const storageItem  = localStorage.getItem('TEST_ITEM');
+
+    if(storageItem) {
+      const parsedItem = JSON.parse(storageItem);
+      /* NEW ACTION  */
+      yield put({type: 'SET_STORAGE_ITEM', payload : parsedItem })
+    }
+
+  } catch  (e) {
+    console.error(`Error occurred, ${e}`)
+  }
+
+
 }
 
 function* sagaWatcher() {
-  yield takeEvery('SET_APP_STATE', sagaWorker)
+  /* action from component  */
+  yield takeEvery('GET_STORAGE_ITEM', sagaWorker)
 }
 
 export default function* rootSaga() {
